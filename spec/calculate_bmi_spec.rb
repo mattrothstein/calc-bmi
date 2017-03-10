@@ -6,7 +6,7 @@ describe CalculateBmi do
   end
 
   it '- Returns a BMI' do
-    bmi = CalculateBmi::Calculate.calc(4)
-    expect(bmi).to eq(4)
+    bmi = CalculateBmi::Calculate.us_calc([6,2],181)
+    expect(bmi).to eq(23.2)
   end
 end

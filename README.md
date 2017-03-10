@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-Use the `CalculateBmi::Calculate.calc([feet,inches], weight)` please use feet, inches and pounds.
+Use the `CalculateBmi::Calculate.us_calc([feet,inches], weight)` please use feet, inches and pounds (if height is 6'0" please enter height as `[6,0]`).
 
 ## Development
 
