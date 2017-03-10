@@ -1,6 +1,6 @@
 module CalculateBmi
-  class calculate
-    def calc(int)
+  class Calculate
+    def self.calc(int)
       #TODO: process `int`
       int
     end

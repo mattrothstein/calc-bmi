@@ -1,11 +1,12 @@
 require 'spec_helper'
 
 describe CalculateBmi do
-  it 'has a version number' do
+  it '- Has a version number' do
     expect(CalculateBmi::VERSION).not_to be nil
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  it '- Returns a BMI' do
+    bmi = CalculateBmi::Calculate.calc(4)
+    expect(bmi).to eq(4)
   end
 end
