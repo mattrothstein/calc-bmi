@@ -1,5 +1,5 @@
 [![Gem Version](https://badge.fury.io/rb/calculate_bmi.svg)](https://badge.fury.io/rb/calculate_bmi)
-[![Build Status](https://travis-ci.org/mattrothstein/bmi-calc.svg?branch=master)](https://travis-ci.org/mattrothstein/bmi-calc)
+[![Build Status](https://travis-ci.org/mattrothstein/calc-bmi.svg?branch=master)](https://travis-ci.org/mattrothstein/calc-bmi)
 # CalculateBmi
 
 CalculateBMI is used to calculate the body mass index based on height and weight.
