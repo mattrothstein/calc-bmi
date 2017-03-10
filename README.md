@@ -1,8 +1,12 @@
 # CalculateBmi
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/calculate_bmi`. To experiment with that code, run `bin/console` for an interactive prompt.
+[![Gem Version][GV img]][Gem Version]
+[![Build Status][BS img]][Build Status]
+[![Dependency Status][DS img]][Dependency Status]
+[![Code Climate][CC img]][Code Climate]
+[![Coverage Status][CS img]][Coverage Status]
 
-TODO: Delete this and the text above, and describe your gem
+CalculateBMI is used to calculate the body mass index based on height and weight.
 
 ## Installation
 
@@ -22,7 +26,7 @@ Or install it yourself as:
 
 ## Usage
 
-Use the `calculate_bmi([feet,inches], weight)` please use feet, inches and pounds.
+Use the `CalculateBmi::Calculate.calc([feet,inches], weight)` please use feet, inches and pounds.
 
 ## Development
 
